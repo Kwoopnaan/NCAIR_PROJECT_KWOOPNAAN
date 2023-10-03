@@ -2,9 +2,9 @@ import cv2
 import tkinter as tk
 from tkinter import filedialog
 
-# Create a Tkinter root window (it won't be displayed)
+# Create a Tkinter root window
 root = tk.Tk()
-root.withdraw()  # Hide the main root window
+root.withdraw() 
 
 # Open a file dialog for selecting a file
 file_path = filedialog.askopenfilename()
